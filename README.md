@@ -1,5 +1,8 @@
 # Frontend Mentor - Bento grid
 
+<img width="3840" height="1080" alt="image" src="https://github.com/user-attachments/assets/a3b836ed-5d9e-46e1-ae3c-dd428f3f0314" />
+
+
 ![Design preview for the Bento grid coding challenge](./preview.jpg)
 
 ## Welcome! 👋
