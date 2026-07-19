@@ -1,0 +1,62 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.card-top-left {
+    grid-row: span 3;
+    background-color: hsl(31, 66%, 93%);
+}
+
+.card-top-middle {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.card-top-right {
+    grid-row: span 4;
+    background-color: hsl(254, 88%, 90%);
+}
+
+.card-middle-left {
+    grid-row: span 2;
+    background-color: white;
+}
+
+.card-middle-right {
+    grid-row: span 2;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.card-bottom-left {
+    grid-row: span 3;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.card-bottom-middle {
+    grid-row: span 2;
+    background-color: white;
+}
+
+.card-bottom-right {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.quicker {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.tenx {
+    color: hsl(39, 100%, 71%);
+}
+
+.faster {
+    font-style: italic;
+}
